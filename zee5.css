@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 90px;
+    width: 100%;
+    background-color: #0f0617;
+    display: flex;
+    align-items: center;
+}
+section{
+    height: 80px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.a{
+    height: 64px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.a>img{
+    height: 50px;
+    width: 50px;
+}
+
+.a a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 520;
+    letter-spacing: 0.5px;
+}
+.a a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+
+
+
+
+.b{
+    height: 64px;
+    width: 50%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;  
+}
+.box{
+    display: flex;
+    justify-content: stretch;
+    border: 0.1px solid white;
+    width: 55%;
+    border-radius: 6px;
+}
+.box>i{
+    padding-left: 7px;
+    padding-top: 6px;
+    width: 10%;
+    color: white;
+}
+.box>input{
+    width: 90%;
+    background-color: transparent;
+    margin: 7px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    color: white;
+}
+.box>input::placeholder{
+    letter-spacing: 0.5px;
+    color: #ffffffcc;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1>a{
+   
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+}
+.b>.login>button{
+   
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 6px;
+    font-weight: 600;
+    background: transparent;
+
+}
+.b>.subs>button{
+   
+    color: #ffffff;
+    background-color: #8230c6;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    font-weight: 600;
+}
+.b>i{
+   
+    color: #ffffff;
+    font-size: 21px;
+}
